@@ -57,15 +57,18 @@ lblChart1 = tk.Label(text = "Гистограмма Seaborn", font = ('Helvetica
 lblChart1.place(x=165, y=300)
 
 # Добавление кнопки и метки для графика 5
-btnChart1 = tk.Button(window, text="График 5", font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart2)
+btnChart1 = tk.Button(window, text="График 5", font = ('Helvetica', 10, 'bold'), command=chart4.plot_chart2)
 btnChart1.place(x=30, y=350, width=120, height=40)
+
+lblChart1 = tk.Label(text = "Сдвоенная гистограмма Seaborn", font = ('Helvetica', 10), fg = '#6600CC')
+lblChart1.place(x=165, y=350)
 
 # Добавление кнопки и метки для графика 6
 btnChart1 = tk.Button(window, text="График 6", font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart2)
 btnChart1.place(x=30, y=400, width=120, height=40)
 
 # Добавление кнопки и метки для графика 7
-btnChart1 = tk.Button(window, text="График 7", font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart2)
+btnChart1 = tk.Button(window, text="График 6", font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart2)
 btnChart1.place(x=30, y=400, width=120, height=40)
 
 
